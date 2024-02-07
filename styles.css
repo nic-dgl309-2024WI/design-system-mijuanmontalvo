@@ -21,7 +21,7 @@ ul, ol {
 
 .top-navbar {
     background-color: var(--clr-primary);
-    color: var(--clr-white);
+    color: var(--clr-light);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -29,8 +29,9 @@ ul, ol {
   }
   
   .top-navbar__logo a {
-    color: var(--clr-white);
+    
     text-decoration: none;
+    color: var(--clr-white);
     font-size: 20px;
     font-weight: bold;
   }
@@ -71,13 +72,13 @@ ul, ol {
   }
 
   .mobile-navbar__nav-links a {
-    color: var(--clr-white);
+    color: var(--clr-primary);
     text-decoration: none;
     transition: color 0.3s ease;
   }
   
   .mobile-navbar__nav-links a:hover {
-    color: var(--clr-primary); /* Cambiar a tu color de resaltado al pasar el ratón */
+    color: var(--clr-light); /* Cambiar a tu color de resaltado al pasar el ratón */
   }
   
   /* Response Styles for Small Screens */
