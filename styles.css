@@ -1,0 +1,8 @@
+:root {
+    /*create variables with initial colors */
+    --clr-primary: black;
+    --clr-secundary: #A9A9A9; /* dark grey color  */
+    --clr-accent: #A9A9A9; /* dark grey color */
+    --clr-light: #D3D3D3; /* light grey  */
+    --clr-white: white;
+  }
