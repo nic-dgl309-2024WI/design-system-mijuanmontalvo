@@ -166,7 +166,9 @@
   color: var(--clr-text-gray);
 }
 
-
+.menu__link--active {
+  color: var(--clr-link--active);
+}
 
 /*  Menu side */
 
