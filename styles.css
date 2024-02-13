@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&amp;family=Roboto:wght@300;400;500&amp;display=swap");
+
+
 :root {
-    /*create variables with initial colors */
-    --clr-primary: #001F3F;
-    --clr-secundary: #2ECC71; /* dark grey color  */
-    --clr-accent: #F2F2F2; /* dark grey color */
-    --clr-light: #FFA500; /* light grey  */
-    --clr-white: white;
-  }
+  /* Color Variables globals  */
+  --clr-primary: #000000; /* black */
+  --clr-secondary: #333333; /* dark grey #404040 */
+  --clr-accent: #e1e1e1; /* dark grey */
+  --clr-light: #f5f5f5; /* very light grey */
+  --clr-white: #ffffff; /* white */
+  --clr-link--active: #0000ff; /* link blue */
+  --clr-blue-highlight: #1f104f; /* dark blue */
 
   /*set margin to 0 for body, h1, h2, h3, h4, h5, h6, p, figure, img */
 body, h1, h2, h3, h4, h5, h6, p, figure, img {
