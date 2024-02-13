@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to compiled CSS from styles.scss -->
     <link rel="stylesheet" href="styles.css" />
-    <!-- Link to compiled CSS from design-system.scss -->
     <link rel="stylesheet" href="design-system.css" />
     <title>Document</title>
 </head>
 <body>
 
-    
+  
 
   <!-- Top navbar -->
+<header class="navbar__top">
   <nav class="top-navbar">
      <!-- Name of the class use BEM (top-navbar)-->
     <div class="top-navbar__logo">
@@ -27,7 +26,9 @@
     </ul>
      <!-- Name of the class use BEM (top-navbar)-->
     <div class="top-navbar__mobile-menu-icon">&#9776;</div>
+    <div class="navbar__mobile-toggle" onclick="toggleMobileMenu()"></div>
   </nav>
+</header>
 
   <!-- Mobile navbar -->
   <div class="mobile-navbar">
