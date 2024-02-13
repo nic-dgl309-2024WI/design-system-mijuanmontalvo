@@ -1,5 +1,10 @@
 /* Styles for top navbar */
 
+.navbar__mobile-toggle:before {
+    content: "☰";
+    cursor: pointer;
+  }
+
 .top-navbar {
     background-color: var(--clr-primary);
     color: var(--clr-light);
