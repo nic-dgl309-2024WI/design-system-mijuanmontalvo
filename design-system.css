@@ -1,87 +1,275 @@
-/* Styles for top navbar */
 
+/* Classes for text colors */
+.text--primary { color: var(--clr-primary-text); }
+.text--secondary { color: var(--clr-secondary-text); }
+.text--light { color: var(--clr-text-light); }
+.text--gray { color: var(--clr-text-gray); }
+.text--accent { color: var(--clr-text-accent); }
+.text--white { color: var(--clr-text-white); }
+.text--link-active { color: var(--clr-link--active); }
+
+
+/* Classes for text-background colors */
+.text--primary-background { color: var(--clr-primary-background); }
+.text--secondary-background { color: var(--clr-secondary-background); }
+
+
+/* Classes for aditional colors text*/
+.text--gray-light { color: var(--clr-gray-light); }
+.text--smerald-light { color: var(--clr-smerald-light); }
+.text--orange-medium { color: var(--clr-orange-medium); }
+.text--gray-medium { color: var(--clr-gray-medium); } 
+.text--purple-medium { color: var(--clr-purple-medium); }
+.text--blue-light { color: var(--clr-blue-light); }
+
+
+/* Classes for gray tones colors */
+.text-black-100 { color: var(--clr-black-100); }
+.text-black-90 { color: var(--clr-black-90); }
+.text-black-80 { color: var(--clr-black-80); }
+.text-black-70 { color: var(--clr-black-70); }
+.text-black-60 { color: var(--clr-black-60); }
+.text-black-50 { color: var(--clr-black-50); }
+.text-black-40 { color: var(--clr-black-40); }
+.text-black-30 { color: var(--clr-black-30); }
+.text-black-20 { color: var(--clr-black-20); }
+.text-black-10 { color: var(--clr-black-10); }
+.text-black-5 { color: var(--clr-black-5); }
+
+
+/* Classes for background colors */
+.bg-primary { background-color: var(--clr-primary); }
+.bg-secondary { background-color: var(--clr-secondary); }
+.bg-accent { background-color: var(--clr-accent); }
+.bg-light { background-color: var(--clr-light); }
+.bg-white { background-color: var(--clr-white); }
+
+
+/* Clases for others background colors */
+.bg-primary-text { background-color: var(--clr-primary-text); }
+.bg-secondary-text { background-color: var(--clr-secondary-text); }
+.bg-text-light { background-color: var(--clr-text-light); }
+.bg-text-gray { background-color: var(--clr-text-gray); }
+.bg-text-accent { background-color: var(--clr-text-accent); }
+.bg-text-white { background-color: var(--clr-text-white); }
+
+.bg-primary-background { background-color: var(--clr-primary-background); }
+.bg-secondary-background { background-color: var(--clr-secondary-background); }
+.bg-accent-background { background-color: var(--clr-accent-background); }
+
+.bg-brown-light { background-color: var(--clr-brown-light); }
+.bg-sunset-light { background-color: var(--clr-sunset-light); }
+.bg-sunset-dark { background-color: var(--clr-sunset-dark); }
+.bg-gray-medium { background-color: var(--clr-gray-medium); }
+.bg-blue-medium { background-color: var(--clr-blue-medium); }
+
+
+/* Clases for others background gray tones colors */
+.bg-black-100 { background-color: var(--clr-black-100); }
+.bg-black-90 { background-color: var(--clr-black-90); }
+.bg-black-80 { background-color: var(--clr-black-80); }
+.bg-black-70 { background-color: var(--clr-black-70); }
+.bg-black-60 { background-color: var(--clr-black-60); }
+.bg-black-50 { background-color: var(--clr-black-50); }
+.bg-black-40 { background-color: var(--clr-black-40); }
+.bg-black-30 { background-color: var(--clr-black-30); }
+.bg-black-20 { background-color: var(--clr-black-20); }
+.bg-black-10 { background-color: var(--clr-black-10); }
+.bg-black-5 { background-color: var(--clr-black-5); }
+
+/* General code*/
+
+
+/* Nav Bar */
+.navbar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--clr-primary-background);
+}
+
+/* Hide menu on mobile devices */
+.navbar__menu {
+  display: none;
+}
+
+/* Logo */
+.navbar__logo {
+  font-weight: bold;
+  color: var(--clr-primary);
+}
+
+/* Toggle icon Mobile */
 .navbar__mobile-toggle:before {
-    content: "☰";
-    cursor: pointer;
-  }
+  content: "☰";
+  cursor: pointer;
+}
 
-.top-navbar {
-    background-color: var(--clr-primary);
-    color: var(--clr-light);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .top-navbar__logo a {
-    
-    text-decoration: none;
-    color: var(--clr-white);
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .top-navbar__nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .top-navbar__nav-links li {
-    margin-right: 20px;
-  }
+/*Toggle icon close */
+.navbar__mobile-toggle.open:before {
+  content: "X";
+}
 
-  .top-navbar__nav-links a:hover {
-    color: var(--clr-light); 
-  }
-  
-  .top-navbar__mobile-menu-icon {
-    display: none;
-    cursor: pointer;
-  }
-  
-  /* Styles for Mobile navbar */
-  .mobile-navbar {
-    display: none;
-    flex-direction: column;
-    background-color: var(--clr-accent);
-    color: var(--clr-white);
-    padding: 10px;
-  }
-  
-  .mobile-navbar__nav-links {
-    list-style: none;
-  }
-  
-  .mobile-navbar__nav-links li {
-    margin-bottom: 10px;
-  }
+/* Top Navbar items */
+.navbar__menu__items {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  color: var(--clr-primary-text);
+}
 
-  .mobile-navbar__nav-links a {
-    color: var(--clr-primary);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
+/* Menu links */
+.navbar__menu__items li .navbar__link {
+  text-decoration: none;
+  color: var(--clr-primary-text);
+}
+
+/* Menu links Hover*/
+.navbar__menu__items li .navbar__link:hover {
+  color: var(--clr-text-gray);
+}
+
+/* Active state menu link */
+/*.navbar__menu__items li .navbar__link--active {
+  border-bottom: 2px solid var(--clr-primary);
+}*/
+
+/* Hide navbar__side on mobile menu */
+.navbar__side {
+  display: none;
+}
+
+.navbar__side--open {
+  display: block;
+}
+
+/* Mobile menu toggle button */
+.navbar__mobile-toggle {
+  display: block;
+}
+
+/* Side Navbar top items */
+.top__items {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Menu links and states */
+.menu__link {
+  text-decoration: none;
+  color: var(--clr-primary-text);
+}
+
+.menu__link:hover {
+  color: var(--clr-text-gray);
+}
+
+
+
+/*  Menu side */
+
+.menu__heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Page colours - colors swatches section */
+
+.colour-swatches__heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.swatch {
+  width: 100%;
+  min-height: 100px;
+}
+.swatch-span {
+  display: block;
+  text-align: center;
+}
+.swatch-div-options {
+  width: 300px;
+  margin-bottom: 10px;
+}
+.swatch-span-bg {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* Color Swatches */
+
+.swatch__bg-primary-text {
+  background-color: var(--clr-primary-background);
+  color:var(--clr-primary-text);
   
-  .mobile-navbar__nav-links a:hover {
-    color: var(--clr-light); /* Cambiar a tu color de resaltado al pasar el ratón */
-  }
+}
+.swatch__bg-primary-background {
+  background-color: var(--clr-secondary-background);
+  color:var(--clr-primary-background);
+}
+
+.swatch__bg-text-accent{
+  background-color: var(--clr-accent-background);
+  color:var(---clr-primary-text);
+}
+
+.swatch__bg-orange-medium{
+  background-color: var(--clr-secondary-background);
+  color:var(--clr-orange-medium);
+}
+
+.swatch__bg-smerald-light{
+  background-color: var(--clr-smerald-light);
+  color:var(--clr-text-white);
+}
+
+.swatch__bg-purple-medium{
+  background-color: var(--clr-purple-medium);
+  color:var( --clr-secondary-text);
+}
+
   
   /* Response Styles for Small Screens */
-  @media (max-width: 768px) {
-    .top-navbar__nav-links {
-      display: none;
-    }
-  
-    .top-navbar__mobile-menu-icon {
-      display: block;
-    }
-  
-    .mobile-navbar {
-      display: flex;
+      @media (min-width: 768px) {
+      /* Tablets and above */
+      .navbar__mobile-toggle {
+        display: none;
+      }
+    
+      .navbar__side {
+        display: block;
+        position: static;
+        width: auto;
+      }
+    
+      /* Top navbar visibility*/
+      .navbar__top {
+        display: flex;
+      }
+    
+      /* Hide side navbar for desktop */
+      .navbar__side {
+        display: block;
+      }
     }
     
-    .mobile-navbar.show-mobile-nav {
-      display: block;
+    /* Larger desktop screens */
+    @media (min-width: 1024px) {
+      .top__items {
+        display: none;
+      }
+      .navbar__menu {
+        display: flex;
+      }
+      .navbar__side {
+        display: block;
+      }
     }
-  }
