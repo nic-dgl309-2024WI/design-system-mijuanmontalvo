@@ -132,16 +132,16 @@
 
 /* Classes for Letter-spacing */
 .font-letter-spacing-s {
-  font-weight: var(--font-letter-spacing-s);
+  letter-spacing: var(--font-letter-spacing-s);
 }
 .font-letter-spacing-m {
-  font-weight: var(--font-letter-spacing-m);
+  letter-spacing: var(--font-letter-spacing-m);
 }
 .font-letter-spacing-l {
-  font-weight: var(--font-letter-spacing-l);
+  letter-spacing: var(--font-letter-spacing-l);
 }
 .font-letter-spacing-xl {
-  font-weight: var(--font-letter-spacing-xl);
+  letter-spacing: var(--font-letter-spacing-xl);
 }
 
 

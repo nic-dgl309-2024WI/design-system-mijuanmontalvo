@@ -73,9 +73,9 @@
   /* Letter-spacing variables */
 
   --font-letter-spacing-s: 1px;
-  --font-letter-spacing-m: 2px;
-  --font-letter-spacing-l: 3px;
-  --font-letter-spacing-xl: 4px;
+  --font-letter-spacing-m: 3px;
+  --font-letter-spacing-l: 5px;
+  --font-letter-spacing-xl: 7px;
 
 }
 
