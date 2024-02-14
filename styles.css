@@ -47,7 +47,39 @@
   --clr-black-5: #f4f2f2; /* Almos White */
 
 
+  /* Font-family variables */
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-secondary: "Arial", sans-serif;
+  --font-text-main: "Times New Roman", sans-serif;
+
+  /* Font-size variables */
+
+  --font-size-s: 0.8rem; 
+  --font-size-m: 1rem; 
+  --font-size-l: 1.2rem; 
+  --font-size-head-m: 1.4rem; 
+  --font-size-head-l: 1.6rem; 
+  --font-size-xl: 1.8rem; 
+  --font-size-xxl:  2rem; 
+
+
+  /* Font-weight variables */
+
+  --font-weight-s: 300;
+  --font-weight-m: 500;
+  --font-weight-l: 700;
+  --font-weight-xl: 900;
+
+  /* Letter-spacing variables */
+
+  --font-letter-spacing-s: 1px;
+  --font-letter-spacing-m: 2px;
+  --font-letter-spacing-l: 3px;
+  --font-letter-spacing-xl: 4px;
+
 }
+
+
 
 /* Box sizing and CSS reset */
 *,

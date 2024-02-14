@@ -77,6 +77,74 @@
 .bg-black-10 { background-color: var(--clr-black-10); }
 .bg-black-5 { background-color: var(--clr-black-5); }
 
+
+* Classes for font-family */
+.u-font-family--main {
+  font-family: var(--font-family-main);
+}
+.u-font-family--secondary {
+  font-family: var(--font-family-secondary);
+}
+
+.u-font-text--main {
+  font-family: var(--font-text-main);
+}
+
+
+/* Classes for font-size */
+.font-size--s {
+  font-size: var(--font-size-s); 
+}
+.font-size--m {
+  font-size: var(--font-size-m);
+}
+.font-size--l {
+  font-size: var(--font-size-l); 
+}
+.font-size--head-m {
+  font-size: var(--font-size-head-m); 
+}
+.font-size--head-l {
+  font-size: var(--font-size-head-l); 
+}
+.font-size--xl {
+  font-size: var(--font-size-xl); 
+}
+.font-size--xxl {
+  font-size: var(--font-size-xxl); 
+}
+
+
+/* Classes for font-weight */
+.font-weight--s {
+  font-weight: var(--font-weight-s);
+}
+.font-weight--m {
+  font-weight: var(--font-weight-m);
+}
+.font-weight--l {
+  font-weight: var(--font-weight-l);
+}
+.font-weight--xl {
+  font-weight: var(--font-weight-xl);
+}
+
+
+/* Classes for Letter-spacing */
+.font-letter-spacing-s {
+  font-weight: var(--font-letter-spacing-s);
+}
+.font-letter-spacing-m {
+  font-weight: var(--font-letter-spacing-m);
+}
+.font-letter-spacing-l {
+  font-weight: var(--font-letter-spacing-l);
+}
+.font-letter-spacing-xl {
+  font-weight: var(--font-letter-spacing-xl);
+}
+
+
 /* General code*/
 
 
