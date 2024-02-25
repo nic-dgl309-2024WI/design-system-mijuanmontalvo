@@ -194,9 +194,15 @@
   color: var(--clr-primary-text);
 }
 
+.navbar__menu__items li .menu__link--active {
+  text-decoration: none;
+  color: var(--clr-link--active);
+}
+
+
 /* Menu links Hover*/
 .navbar__menu__items li .navbar__link:hover {
-  color: var(--clr-text-gray);
+  color: var(--clr-text-accent);
 }
 
 /* Active state menu link */
@@ -232,7 +238,7 @@
 }
 
 .menu__link:hover {
-  color: var(--clr-text-gray);
+  color: var(--clr-text-accent);
 }
 
 .menu__link--active {
