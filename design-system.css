@@ -78,9 +78,10 @@
 .bg-black-5 { background-color: var(--clr-black-5); }
 
 
-* Classes for font-family */
+/* Classes for font-family */
 .u-font-family--main {
   font-family: var(--font-family-main);
+  
 }
 .u-font-family--secondary {
   font-family: var(--font-family-secondary);
