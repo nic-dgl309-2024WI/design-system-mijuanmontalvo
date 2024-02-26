@@ -56,10 +56,9 @@
   --font-family-secondary: "Arial";
   --font-text-main: "Times New Roman";*/
 
-  --font-family-main: 'Nunito', sans-serif;
-  /*--font-family-secondary: "Arial";*/
-  --font-text-main: "Open Sans";
-
+ --font-family-main: 'Nunito';
+  --font-family-secondary: "Open Sans";
+ 
   /* Font-size variables */
 
   --font-size-s: 0.8rem; 
