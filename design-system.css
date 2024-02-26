@@ -31,8 +31,6 @@
 .text-black-20 { color: var(--clr-black-20); }
 
 
-
-
 /* Classes for background colors */
 .bg-primary { background-color: var(--clr-primary); }
 .bg-secondary { background-color: var(--clr-secondary); }
@@ -66,8 +64,6 @@
 .bg-black-60 { background-color: var(--clr-black-60); }
 .bg-black-40 { background-color: var(--clr-black-40); }
 .bg-black-20 { background-color: var(--clr-black-20); }
-
-
 
 
 /* Classes for font-family */
@@ -254,20 +250,11 @@
   width: 100%;
   min-height: 100px;
 }
-.swatch-span {
+.swatch__span {
   display: block;
   text-align: center;
 }
-.swatch-div-options {
-  width: 300px;
-  margin-bottom: 10px;
-}
-.swatch-span-bg {
-  width: 50px;
-  height: 20px;
-  display: inline-block;
-  margin-left: 15px;
-}
+
 
 /* Color Swatches */
 
