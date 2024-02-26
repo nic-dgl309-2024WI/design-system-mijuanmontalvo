@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 :root {
+  
   /* Color Variables globals  */
   --clr-primary: #000000; /* black */
   --clr-secondary: #333333; /* dark grey #404040 */
@@ -28,7 +29,7 @@
   --clr-secondary-background: #9E9E9E;
   --clr-accent-background: #FF4081;
 
-  /* Tonal  color Variables  */
+  /* Tonal color Variables  */
   --clr-gray-light: #d0d0d0;
   --clr-smerald-light: #009975;
   --clr-orange-medium: #ffa420;
@@ -39,17 +40,10 @@
 
   /* List gray tones*/
   --clr-black-100: #000000; /* Black */
-  --clr-black-90: #2b2b2b; 
   --clr-black-80: #454c53; 
-  --clr-black-70: #565a71; 
   --clr-black-60: #838385; 
-  --clr-black-50: #969696; 
   --clr-black-40: #a1a1a1; 
-  --clr-black-30: #c3c1c1; 
   --clr-black-20: #d2d2d2; 
-  --clr-black-10: #e1e1e1; 
-  --clr-black-5: #f4f2f2; /* Almos White */
-
 
   /* Font-family variables */
   /*--font-family-main: "Roboto";

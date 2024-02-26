@@ -25,16 +25,12 @@
 
 /* Classes for gray tones colors */
 .text-black-100 { color: var(--clr-black-100); }
-.text-black-90 { color: var(--clr-black-90); }
 .text-black-80 { color: var(--clr-black-80); }
-.text-black-70 { color: var(--clr-black-70); }
 .text-black-60 { color: var(--clr-black-60); }
-.text-black-50 { color: var(--clr-black-50); }
 .text-black-40 { color: var(--clr-black-40); }
-.text-black-30 { color: var(--clr-black-30); }
 .text-black-20 { color: var(--clr-black-20); }
-.text-black-10 { color: var(--clr-black-10); }
-.text-black-5 { color: var(--clr-black-5); }
+
+
 
 
 /* Classes for background colors */
@@ -66,16 +62,12 @@
 
 /* Clases for others background gray tones colors */
 .bg-black-100 { background-color: var(--clr-black-100); }
-.bg-black-90 { background-color: var(--clr-black-90); }
 .bg-black-80 { background-color: var(--clr-black-80); }
-.bg-black-70 { background-color: var(--clr-black-70); }
 .bg-black-60 { background-color: var(--clr-black-60); }
-.bg-black-50 { background-color: var(--clr-black-50); }
 .bg-black-40 { background-color: var(--clr-black-40); }
-.bg-black-30 { background-color: var(--clr-black-30); }
 .bg-black-20 { background-color: var(--clr-black-20); }
-.bg-black-10 { background-color: var(--clr-black-10); }
-.bg-black-5 { background-color: var(--clr-black-5); }
+
+
 
 
 /* Classes for font-family */
