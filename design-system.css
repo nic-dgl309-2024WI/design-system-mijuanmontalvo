@@ -290,27 +290,27 @@
 }
 .swatch__bg-primary-background {
   background-color: var(--clr-secondary-background);
-  color:var(--clr-primary-background);
+  color:var(--clr-primary-text);
 }
 
 .swatch__bg-text-accent{
   background-color: var(--clr-accent-background);
-  color:var(---clr-primary-text);
+  color:var(--clr-primary-text);
 }
 
-.swatch__bg-orange-medium{
-  background-color: var(--clr-secondary-background);
-  color:var(--clr-orange-medium);
+.swatch__bg-pink-light{
+  background-color: var(--clr-blue-pink);
+  color:var(--clr-primary-text);
 }
 
 .swatch__bg-smerald-light{
   background-color: var(--clr-smerald-light);
-  color:var(--clr-text-white);
+  color:var(--clr-primary-text);
 }
 
-.swatch__bg-purple-medium{
-  background-color: var(--clr-purple-medium);
-  color:var( --clr-secondary-text);
+.swatch__bg-black-20{
+  background-color: var(--clr-black-20);
+  color:var(--clr-primary-text);
 }
 
   
