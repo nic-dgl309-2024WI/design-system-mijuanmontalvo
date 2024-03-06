@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="design-system.css" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
+</head>
   <body>
+    <header class="navbar__top">
+      <div class="navbar__logo">Design System</div>
+      <!-- Hamburger icon for mobile menu -->
+      <div class="navbar__mobile-toggle" onclick="toggleMobileMenu()"></div>
+      <nav class="navbar__menu">
+          <ul class="navbar__menu__items">
+              <li><a href="about-me.html" class="navbar__link menu__link--active">About Me</a></li>
+              <li><a href="index.html" class="navbar__link ">Demos</a></li>
+          </ul>
+      </nav>
+  </header>
+
       <!-- add your name -->
     <h1>Hi! My name is Juan Montalvo.</h1>
     <h2>I am a web developer.</h2>
