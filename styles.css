@@ -82,6 +82,9 @@
 
 
 
+
+
+
 /* Box sizing and CSS reset */
 *,
 *::before,
@@ -89,8 +92,14 @@
   box-sizing: border-box;
 }
 
+html{
+  height: 100%;
+}
+
 body{
   line-height: 1.5rem;
+  min-height: 100%;
+
 }
 
 body, h1, h2, h3, h4, h5, h6, p, figure, picture, img {
