@@ -1,4 +1,8 @@
 
+
+
+
+
 /* Classes for text colors */
 .text--primary { color: var(--clr-primary-text); }
 .text--secondary { color: var(--clr-secondary-text); }
@@ -138,8 +142,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
   padding: 1rem;
   background-color: var(--clr-primary-background);
+  z-index: 1000;
 }
 
 /* Hide menu on mobile devices */
@@ -288,9 +295,48 @@
   color:var(--clr-primary-text);
 }
 
+.main{
+  background-color: yellow;
+}
+
   
   /* Response Styles for Small Screens */
       @media (min-width: 768px) {
+
+/*grid*/
+.main{
+  background-color: blue;
+}
+.navbar__top {
+  grid-area: header;
+}
+
+.navbar__side {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.l-grid-container{
+display: grid;
+align-items: start;
+gap: 10px;
+/*grid-template-columns: 200px auto;
+grid-template-rows: 60px auto;
+grid-template-areas: 
+"header  header" 
+"sidebar main";*/
+
+grid-template: 
+"header  header" 60px
+"sidebar main"   auto/ 
+200px auto;
+
+}
+
+
       /* Tablets and above */
       .navbar__mobile-toggle {
         display: none;
@@ -298,8 +344,13 @@
     
       .navbar__side {
         display: block;
-        position: static;
+        /*position: static;*/
+        height: 100dvh;
+        position: sticky;
+        top: 60px;
         width: auto;
+        background-color: red;
+        z-index: 100;
       }
     
       /* Top navbar visibility*/
@@ -315,6 +366,11 @@
     
     /* Larger desktop screens */
     @media (min-width: 1024px) {
+
+      .main{
+        background-color: burlywood;
+      }
+
       .top__items {
         display: none;
       }
