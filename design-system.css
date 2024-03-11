@@ -296,9 +296,7 @@
   color:var(--clr-primary-text);
 }
 
-.main{
-  
-}
+
 
 .desktop{
   display: none;
@@ -331,9 +329,7 @@
 
 
 /*grid*/
-.main{
-  
-}
+
 .navbar__top {
   grid-area: header;
 }
@@ -349,7 +345,8 @@
 .l-grid-container{
 display: grid;
 align-items: start;
-gap: 10px;
+/*gap: 10px;*/
+
 /*grid-template-columns: 200px auto;
 grid-template-rows: 60px auto;
 grid-template-areas: 
@@ -376,7 +373,6 @@ grid-template:
         position: sticky;
         top: 60px;
         width: auto;
-        background-color: 
         z-index: 100;
         border-right: 5px solid #000;;
       }
@@ -406,11 +402,6 @@ grid-template:
         place-items: center;
       }
 
-
-
-      .main{
-        
-      }
 
       .top__items {
         display: none;
