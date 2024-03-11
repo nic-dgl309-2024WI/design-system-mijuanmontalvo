@@ -255,7 +255,7 @@
 
 .swatch {
   margin: 2px auto;
-  width: 50%;
+  width: 70%;
   min-height: 100px;
 }
 .swatch__span {
@@ -340,6 +340,7 @@
 
 .main {
   grid-area: main;
+
 }
 
 .l-grid-container{
@@ -359,6 +360,59 @@ grid-template:
 200px auto;
 
 }
+
+/*Typography grid*/
+
+.l-main-typography-1 {
+  grid-area: typography-1;
+  padding: 0px 20px;
+}
+
+.l-main-typography-2{
+  grid-area: typography-2;
+  padding: 0px 20px;
+}
+
+.l-main-typography{
+  display: grid;
+  align-items: start;
+  gap: 10px;
+  
+  /*grid-template-columns: 200px auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas: 
+  "header  header" 
+  "sidebar main";*/
+  
+  grid-template: 
+  "typography-1  typography-2" auto/50% 50%;
+  }
+
+/*Color grid*/
+
+.l-colour-swatches-grid-1 {
+  grid-area: color-1;
+  padding: 0px 20px;
+}
+
+.l-colour-swatches-grid-2{
+  grid-area: color-2;
+  padding: 0px 20px;
+}
+
+.l-main-color{
+  display: grid;
+  align-items: start;
+  gap: 10px;
+  
+  grid-template: 
+  "color-1  color-2" auto/50% 50%;
+  }
+
+
+
+
+
 
 
       /* Tablets and above */
