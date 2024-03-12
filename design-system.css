@@ -120,6 +120,62 @@
 
 
 /* Classes for Letter-spacing */
+
+
+.u-spacing-main {
+  font-family: var(--font-family-main);
+  padding: 0 50px;
+}
+
+.spacing-title-paragrap-1 {
+width: 30px;
+height: 1rem;
+background-color: #454c53;
+}
+
+.spacing-paragrap-paragrap-1 {
+  width: 30px;
+  height: 0.75rem;
+  background-color: #454c53;
+  }
+
+  .spacing-title-paragrap-2 {
+    width: 30px;
+    height: 1.25rem;
+    background-color: #454c53;
+    }
+    
+.spacing-paragrap-paragrap-2 {
+      width: 30px;
+      height: 0.75rem;
+      background-color: #454c53;
+ }
+
+.spacing-title-paragrap-3 {
+            width: 30px;
+            height: 1.5rem;
+            background-color: #454c53;
+ }
+            
+.spacing-paragrap-paragrap-3 {
+              width: 30px;
+              height: 0.75rem;
+              background-color: #454c53;
+ }
+
+.spacing-title-paragrap-4 {
+                width: 30px;
+                height: 1.75rem;
+                background-color: #454c53;
+                }
+                
+.spacing-paragrap-paragrap-4 {
+                  width: 30px;
+                  height: 0.75rem;
+                  background-color: #454c53;
+              } 
+
+
 .font-letter-spacing-s {
   letter-spacing: var(--font-letter-spacing-s);
 }
