@@ -511,9 +511,15 @@ form button:hover {
   background-color: var(--clr-smerald-light);
 }
 
+/*About me*/
 
-
-
+.aboutme {
+  width: 80%;
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: var(--clr-black-20);
+}
 
 
 
