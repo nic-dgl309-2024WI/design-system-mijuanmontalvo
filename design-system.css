@@ -368,13 +368,69 @@ background-color: #454c53;
   background-color: darkcyan;
 } */
 
+
+.containers-hero-1 {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+}
+
+.containers-hero-1 h1 {
+  margin-bottom: 20px;
+}
+
+.containers-hero-1 p {
+  margin-bottom: 30px;
+}
+
+.containers-hero-1 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.containers-hero-2 {
+  background-image: url('images/hero_2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+}
+
+.containers-hero-2 h1 {
+  margin-bottom: 20px;
+}
+
+.containers-hero-1 p {
+  margin-bottom: 30px;
+}
+
+.containers-hero-2 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
 .containers-cards{
   display: flex;
   flex-direction: column;
 
   align-items: center;
 
-background-color: red;
 }
 
 .card {
@@ -406,6 +462,13 @@ background-color: red;
   cursor: pointer;
   width: 100%;
 }
+
+
+
+
+
+
+
 
 
 
