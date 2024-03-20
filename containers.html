@@ -78,66 +78,192 @@
 
   <!-- Typography section -->
 
-<div class="main">
+  <div class="main">
 
-<!-- <h1 class="desktop">DESKTOP: max-width - desktop between 768px and 1024px</h1>
-<h1 class="mobile">MOBILE: max-width - mobile - 768px or  </h1>
-<h1 class="full">FULL: full-width - 1024px or more</h1> -->
-
-<section class="containers-hero-1">
-    <div class="hero">
-        <h1>Title of Hero</h1>
-        <p>Hero main text</p>
-        <button>Check more details</button>
+    <div class="l-flex u-col u-ff-sans l-mt-4">
+      <h3>Total width</h3>
+      <div  class="bg-black-20 l-total-width h-150 l-flex u-justify-center u-align-center l-mt-1">
+         Width: 100%, Class Name: l-total-width
       </div>
-</section>
-
-<section class="containers-hero-2">
-    <div class="hero">
-        <h1>Title of Hero</h1>
-        <p>Hero main text</p>
-        <button>Check more details</button>
+      <div class="bg-black-20 l-total-width-50 h-150 l-flex u-justify-center u-align-center l-mt-1">
+        Width: 50%, Class Name: l-total-width-50
       </div>
-</section>
+      <div  class="bg-black-20 l-total-width-75 h-150 l-flex u-justify-center u-align-center l-mt-1">
+        Width: 70%, Class Name: l-total-width-75
+      </div>
+    </div>
 
 
-<section class="containers-cards">
-    
-<div class="card">
-    <img src="images/Card_1.jpg" alt="Imagen 1">
-    <h2>Title Card 1</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, est ipsa. Cupiditate amet voluptatum temporibus impedit ipsa fugit eum eligendi ab perspiciatis sequi. Quisquam molestiae mollitia soluta dolorum ullam sequi!</p>
-    <button>Check more details</button>
+    <div class="main l-main-typography">
+
+      <section class="u-font-family--main typography l-main-typography-1">
+          <br>
+          <br>
+          
+          <h3>Flexbox</h3>
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: l-flex</span>
+            <span>Use for: Get a flex container</span>
+          </div>
+            <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-row</span>
+            <span>Use for: Placing  flex items horizontally</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name:  u-col</span>
+            <span>Use for: Placing flex items vertically</span>
+          </div>
+
+
+          <!-- Justify Content -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-justify-start</span>
+            <span>Use for: Align the items in a justify-start way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-justify-end</span>
+            <span>Use for: Align the items in a justify-end way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-justify-center</span>
+            <span>Use for: Align the items in a justify-center way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-justify-between</span>
+            <span>Use for: Align the items in a justify-between way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-justify-around</span>
+            <span>Use for: Align the items in a justify-around way</span>
+          </div>
+
+          <!-- Align Items -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-align-start</span>
+            <span>Use for: Align the items in a ali=gn-start way</span
+            >
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-align-end</span>
+            <span>Use for: Align the items in a ali=gn-end way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-align-center</span>
+            <span>Use for: Align the items in a ali=gn-center way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-align-baseline</span>
+            <span>Use for: Align the items in a ali=gn-baseline way</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-align-stretch</span>
+            <span>Use for: Align the items in a ali=gn-stretch way</span>
+          </div>
+
+      </section>
+      <br>
+      <br>
+      <section class="u-font-family--secondary l-main-typography-2">
+          <br>
+          <br>
+          
+          <h3>Grid</h3>
+
+          <!-- Grid Container -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: l-grid</span>
+            <span>Use for: Apply the grid property to the container</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name:  u-cols-auto</span>
+            <span>Use for: Apply automatically the grid-template-columns property</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-rows-auto</span>
+            <span>Use for: Apply automatically the grid-template-rows property</span>
+          </div>
+
+
+          <!-- Grid Gap -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-0</span>
+            <span>Use for: Apply gap = 0px property</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-0_25</span>
+            <span>Use for: Apply gap = 0.25rem property</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-0_5</span>
+            <span>Use for: Apply gap = 0.5rem property</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-0_75</span>
+            <span>Use for: Apply gap = 0.75rem property</span>
+          </div>
+
+          <!-- Grid Gap X -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-x-0</span>
+            <span>Use for: Apply gap = 0rem horizontally</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-x-0_25</span>
+            <span>Use for: Apply gap = 0.25rem horizontally</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-x-0_5</span>
+            <span>Use for: Apply gap = 0.5rem horizontally</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-x-0_75</span>
+            <span>Use for: Apply gap = 0.75rem horizontally</span>
+          </div>
+
+          <!-- Grid Gap Y -->
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-y-0</span>
+            <span>Use for: Apply gap = 0rem vertically</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-y-0_25</span>
+            <span>Use for: Apply gap = 0.25rem vertically</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-y-0_5</span>
+            <span>Use for: Apply gap = 0.5rem vertically</span>
+          </div>
+
+          <div class="l-flex  u-col l-pb-2">
+            <span>Class Name: u-gap-y-0_75</span>
+            <span>Use for: Apply gap = 0.75rem vertically</span>
+          </div>
+              
+      </section>
+  
   </div>
 
-  <div class="card">
-    <img src="images/Card_1.jpg" alt="Imagen 2">
-    <h2>Title Card 2</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam odio iure quia fuga accusantium aut praesentium, quo temporibus rerum.</p>
-    <button>Check more details</button>
+
   </div>
-</section>
-
-<section class="containers-form">
-
-    <div class="form">
-        <h2>Title form </h2>
-        <form action="#" method="post">
-          <label for="nombre">Label 1:</label>
-          <input type="text" id="" name="" required>
-    
-          <label for="email">Label 2:</label>
-          <input type="email" id="" name="" required>
-    
-          <label for="mensaje">Label 3:</label>
-          <textarea id="mensaje" name="" rows="4" required></textarea>
-    
-          <button type="submit">Send</button>
-        </form>
-      </div>
-</section>
-    
-</div>
 
   <!-- Scripts -->
   <script src="design-system.js"></script>
